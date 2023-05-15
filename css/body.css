@@ -1,0 +1,48 @@
+.body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #dbdfdf;
+    max-width: 1000px;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(14, 14, 14);
+    margin: auto;
+    line-height: 1.5;
+  }
+  
+  .body__image {
+    max-width: 400px;
+    overflow-x: auto;
+  }
+  
+  .body__image--main {
+    box-shadow: 7px 7px 10px 3px #606665;
+  }
+  
+  .js-body--dark {
+    color: azure;
+    background-color: rgb(52, 55, 62);
+  }
+  
+  .body__link {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(108, 59, 67);
+    padding: 3px;
+    border: #606665 1px solid;
+    border-radius: 3px;
+  }
+  
+  .body__link--special {
+    background-color: crimson;
+    color: white;
+  }
+  
+  .body__list {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  
+  .body__item {
+    margin-bottom: 10px;
+  }
+  
