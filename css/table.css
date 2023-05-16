@@ -1,21 +1,24 @@
 .table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  .table__row:hover {
-    background-color: rgb(42, 47, 71);
-    color: white;
-  }
-  
-  .table__cell {
-    border: 1px solid grey;
-    padding: 5px;
-    text-align: center;
-  }
-  
-  .table__cell--header {
-    background-color: rgb(171, 181, 205);
-    color: black;
-  }
-  
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table__row:hover {
+  background-color: rgb(42, 47, 71);
+  color: white;
+}
+
+.table__cell {
+  border: 1px solid grey;
+  padding: 5px;
+  text-align: center;
+}
+
+.table__cell--header {
+  background-color: rgb(171, 181, 205);
+  color: black;
+}
+
+.table__caption {
+  text-decoration: underline 1px rgb(42, 47, 71);
+}
