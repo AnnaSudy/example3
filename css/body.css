@@ -9,9 +9,13 @@
   line-height: 1.5;
 }
 
+.body__container {
+  overflow-x: auto;
+}
+
 .body__image {
   max-width: 400px;
-  overflow-x: auto;
+
 }
 
 .body__image--main {
